@@ -92,6 +92,8 @@
 use lib 'lib';
 use warnings;
 use strict;
+use utf8;
+use open qw(:std :utf8);
 
 use feature 'switch';
 use Bioware::GFF 0.64;
